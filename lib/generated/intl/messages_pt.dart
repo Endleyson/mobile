@@ -8,7 +8,6 @@
 // ignore_for_file:prefer_single_quotes,comment_references, directives_ordering
 // ignore_for_file:annotate_overrides,prefer_generic_function_type_aliases
 // ignore_for_file:unused_import, file_names, avoid_escaping_inner_quotes
-// ignore_for_file:unnecessary_string_interpolations, unnecessary_string_escapes
 
 import 'package:intl/intl.dart';
 import 'package:intl/message_lookup_by_library.dart';
@@ -65,6 +64,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "textAppBarSignUp": MessageLookupByLibrary.simpleMessage("Cadastro"),
         "textAtLeast8Characteres": MessageLookupByLibrary.simpleMessage(
             "- Sua senha deve ter mais de 8 caracteres"),
+        "textAvatarSuccessUpated": MessageLookupByLibrary.simpleMessage(
+            "Avatar alterado com sucesso!"),
         "textBackToLocation":
             MessageLookupByLibrary.simpleMessage("Voltar ao local"),
         "textBestRates":
@@ -124,6 +125,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Adicionar Local"),
         "textDrawerMyAccount":
             MessageLookupByLibrary.simpleMessage("Minha Conta"),
+        "textEditPersonalInformation":
+            MessageLookupByLibrary.simpleMessage("Editar informações pessoais"),
         "textEditProfile":
             MessageLookupByLibrary.simpleMessage("Editar Perfil"),
         "textEmailAddress":
@@ -170,6 +173,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "textExamplePronouns": MessageLookupByLibrary.simpleMessage(
             "Exemplo: Ela/Dela, Elu/Delu, Ela/Elu"),
         "textExcited": MessageLookupByLibrary.simpleMessage("Alegre"),
+        "textFailedToUpdateAvatar": MessageLookupByLibrary.simpleMessage(
+            "Não foi possível alterar o avatar!"),
         "textFeatureAvailableSoon": MessageLookupByLibrary.simpleMessage(
             "Funcionalidade disponível em breve"),
         "textFinish": MessageLookupByLibrary.simpleMessage("Finalizar"),
@@ -187,6 +192,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "textIReadAndAcceptThe":
             MessageLookupByLibrary.simpleMessage("Eu li e aceito os "),
         "textIncredible": MessageLookupByLibrary.simpleMessage("Incrível"),
+        "textInformationChangedSuccessfully":
+            MessageLookupByLibrary.simpleMessage(
+                "Informações atualizadas com sucesso!"),
         "textIsItSafe": MessageLookupByLibrary.simpleMessage("Is It Safe?"),
         "textLGBTFobia": MessageLookupByLibrary.simpleMessage("LGBTfobia"),
         "textLettersAndNumbers":
@@ -290,6 +298,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "textTermsOfUse": MessageLookupByLibrary.simpleMessage("Termos de Uso"),
         "textTypeTheNameOfAPlaceToSearch": MessageLookupByLibrary.simpleMessage(
             "Digite o nome de um local para buscar."),
+        "textUnableToChangeInformation": MessageLookupByLibrary.simpleMessage(
+            "Não foi possível atualizar as informações!"),
+        "textUpdateInformation":
+            MessageLookupByLibrary.simpleMessage("Atualizar informações"),
         "textUpset": MessageLookupByLibrary.simpleMessage("Chateado"),
         "textUsername": MessageLookupByLibrary.simpleMessage("Usuário"),
         "textWeCareAboutYourSafety": MessageLookupByLibrary.simpleMessage(

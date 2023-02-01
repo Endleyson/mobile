@@ -560,16 +560,6 @@ class S {
     );
   }
 
-  /// `Apelido`
-  String get textNickName {
-    return Intl.message(
-      'Apelido',
-      name: 'textNickName',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `Endereço de E-mail`
   String get textEmailAddress {
     return Intl.message(
@@ -890,16 +880,6 @@ class S {
     );
   }
 
-  /// `Editar Informações Pessoais`
-  String get textEditPersonalInformation {
-    return Intl.message(
-      'Editar Informações  Pessoais',
-      name: 'textEditPersonalInformation',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `Sair`
   String get textLogout {
     return Intl.message(
@@ -955,16 +935,6 @@ class S {
     return Intl.message(
       'Informações da Conta',
       name: 'textAccountInformation',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `ATUALIZAR INFORMAÇÕES CONTA`
-  String get textUpdateInformation {
-    return Intl.message(
-      'Atualizar Informações',
-      name: 'textUpdateInformation',
       desc: '',
       args: [],
     );
@@ -1060,31 +1030,51 @@ class S {
     );
   }
 
-  /// `Funcionalidade disponível em breve`
-  String get textFeatureAvailableSoon {
+  /// `Editar informações pessoais`
+  String get textEditPersonalInformation {
     return Intl.message(
-      'Funcionalidade disponível em breve',
-      name: 'textFeatureAvailableSoon',
+      'Editar informações pessoais',
+      name: 'textEditPersonalInformation',
       desc: '',
       args: [],
     );
   }
 
-  /// `Informações alteradas com sucesso!`
+  /// `Atualizar informações`
+  String get textUpdateInformation {
+    return Intl.message(
+      'Atualizar informações',
+      name: 'textUpdateInformation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Informações atualizadas com sucesso!`
   String get textInformationChangedSuccessfully {
     return Intl.message(
-      'Informações alteradas com sucesso!',
+      'Informações atualizadas com sucesso!',
       name: 'textInformationChangedSuccessfully',
       desc: '',
       args: [],
     );
   }
 
-  /// `Não foi possível alterar suas informações!`
+  /// `Não foi possível atualizar as informações!`
   String get textUnableToChangeInformation {
     return Intl.message(
-      'Não foi possível alterar suas informações!',
+      'Não foi possível atualizar as informações!',
       name: 'textUnableToChangeInformation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Funcionalidade disponível em breve`
+  String get textFeatureAvailableSoon {
+    return Intl.message(
+      'Funcionalidade disponível em breve',
+      name: 'textFeatureAvailableSoon',
       desc: '',
       args: [],
     );
@@ -1475,6 +1465,26 @@ class S {
     return Intl.message(
       'Local não recomendado.\n A maioria das pessoas não\n considera esse local seguro\n para comunidade LGBTQIA+',
       name: 'textMostPeopleDangerPlace',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Avatar alterado com sucesso!`
+  String get textAvatarSuccessUpated {
+    return Intl.message(
+      'Avatar alterado com sucesso!',
+      name: 'textAvatarSuccessUpated',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Não foi possível alterar o avatar!`
+  String get textFailedToUpdateAvatar {
+    return Intl.message(
+      'Não foi possível alterar o avatar!',
+      name: 'textFailedToUpdateAvatar',
       desc: '',
       args: [],
     );
