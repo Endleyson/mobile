@@ -1769,6 +1769,56 @@ class S {
       args: [],
     );
   }
+
+  /// `Abrir Permissões`
+  String get textOpenPermissions {
+    return Intl.message(
+      'Abrir Permissões',
+      name: 'textOpenPermissions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nos conte como podemos te ajudar`
+  String get textContacHowToHelpYou {
+    return Intl.message(
+      'Nos conte como podemos te ajudar',
+      name: 'textContacHowToHelpYou',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Não foi possível realizar a ação.`
+  String get textContacActionError {
+    return Intl.message(
+      'Não foi possível realizar a ação.',
+      name: 'textContacActionError',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Senha alterada com sucesso!`
+  String get textPasswordSuccessChanged {
+    return Intl.message(
+      'Senha alterada com sucesso!',
+      name: 'textPasswordSuccessChanged',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Não foi possível alterar sua senha!`
+  String get textPasswordFailureChanged {
+    return Intl.message(
+      'Não foi possível alterar sua senha!',
+      name: 'textPasswordFailureChanged',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
